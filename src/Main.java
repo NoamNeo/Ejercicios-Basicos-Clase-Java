@@ -24,7 +24,7 @@ public class Main{
         }
         decision = usrInput.nextInt();
         if (dinero < precio[decision]){
-            System.out.println("Precio invalido");
+            System.out.println("Eres demasiado pobre");
         }else if (dinero >= precio[decision]){
             System.out.println("Has comprado " + bebidas[decision]);
         }
